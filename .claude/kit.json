@@ -1,0 +1,87 @@
+{
+  "name": "idea-os",
+  "displayName": "Idea OS Kit",
+  "description": "AI-powered business idea validation for founders",
+  "version": "1.0.0",
+  "deployMode": "inject",
+
+  "requires": {
+    "projectType": ["any"],
+    "files": [],
+    "description": "Works in any folder - standalone idea validation workspace"
+  },
+
+  "tiers": {
+    "free": {
+      "includes": [
+        ".claude/commands/setup.md",
+        ".claude/commands/next.md",
+        ".claude/commands/version.md",
+        ".claude/guides/mom-test-guide.md"
+      ],
+      "limits": {
+        "agents": 0,
+        "commands": 3,
+        "guides": 1,
+        "research_depth": "basic"
+      },
+      "description": "Basic idea definition and guidance"
+    },
+    "paid": {
+      "includes": ["**/*"],
+      "features": [
+        "Deep research automation",
+        "Full competitor analysis",
+        "Market sizing and trends",
+        "Interview question generation",
+        "PMF scoring",
+        "Pivot suggestions",
+        "Validation reports"
+      ],
+      "description": "Full idea validation suite"
+    }
+  },
+
+  "upgrade": {
+    "source": "https://api.aiorg.dev/kits",
+    "requiresLicense": true,
+    "fileCategories": {
+      "alwaysReplace": [
+        ".claude/commands/**/*.md",
+        ".claude/knowledge/**/*.md",
+        ".claude/guides/**/*.md",
+        ".claude/hooks/**/*",
+        ".claude/settings.json",
+        ".claude/version.json",
+        ".claude/kit.json",
+        "CLAUDE.md",
+        "README.md"
+      ],
+      "mergeIfChanged": [],
+      "addOnly": [],
+      "neverTouch": [
+        ".env*",
+        "config/idea.md",
+        "config/customer.md",
+        "config/interviews.json",
+        "config/research-snapshot.json",
+        "config/validation-status.json",
+        "research/**/*",
+        "validation/**/*",
+        "reports/**/*"
+      ]
+    }
+  },
+
+  "license": {
+    "keyLocation": ".env.local",
+    "keyName": "AIORG_LICENSE_KEY",
+    "purchaseUrl": "https://aiorg.dev/buy/idea-os-kit",
+    "verifyUrl": "https://api.aiorg.dev/licenses/verify"
+  },
+
+  "author": "aiorg.dev",
+  "repository": "https://github.com/aiorgdev/idea-os",
+  "homepage": "https://aiorg.dev/kits/idea-os",
+  "keywords": ["validation", "pmf", "product-market-fit", "startup", "research", "competitor-analysis"]
+}

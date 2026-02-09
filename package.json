@@ -1,0 +1,8 @@
+{
+  "name": "idea-os",
+  "version": "1.9.0",
+  "description": "AI-powered business idea validation for Claude Code",
+  "private": true,
+  "productType": "tool",
+  "type": "module"
+}
