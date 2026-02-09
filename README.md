@@ -183,7 +183,7 @@ my-idea/
 ## Links
 
 - **Documentation:** https://aiorg.dev/docs/kits/idea-os
-- **All kits:** https://aiorg.dev/kits
+- **All kits:** https://aiorg.dev/#kits
 - **Issues:** https://github.com/aiorgdev/idea-os/issues
 
 ## License
