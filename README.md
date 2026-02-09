@@ -1,6 +1,6 @@
 # Idea OS
 
-[![Version](https://img.shields.io/badge/version-1.11.4-blue)](https://github.com/aiorgdev/idea-os/releases)
+[![Version](https://img.shields.io/badge/version-1.11.5-blue)](https://github.com/aiorgdev/idea-os/releases)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Free](https://img.shields.io/badge/price-free-brightgreen)](https://aiorg.dev/kits/idea-os)
 [![Claude Code](https://img.shields.io/badge/built%20for-Claude%20Code-blueviolet)](https://docs.anthropic.com/en/docs/claude-code)

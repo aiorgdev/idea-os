@@ -1,6 +1,6 @@
 {
-  "version": "1.11.4",
-  "releasedAt": "2026-01-22",
+  "version": "1.11.5",
+  "releasedAt": "2026-02-09",
   "packageName": "idea-os",
   "packageDisplayName": "Idea OS",
   "publicRepo": "aiorgdev/idea-os",
@@ -43,6 +43,16 @@
     ]
   },
   "changelog": {
+    "1.11.5": {
+      "date": "2026-02-09",
+      "highlights": ["Public GitHub repo"],
+      "added": ["Public repo at github.com/aiorgdev/idea-os for browsing source code"],
+      "changed": [],
+      "fixed": ["Broken /kits/saas-dev-team links → /kits/saas-starter"],
+      "breaking": [],
+      "newEnvVars": [],
+      "upgradeNotes": null
+    },
     "1.11.4": {
       "date": "2026-01-22",
       "highlights": ["Inline plugin instructions"],
