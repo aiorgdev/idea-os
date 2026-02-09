@@ -176,7 +176,7 @@ my-idea/
 | Kit | When to use |
 |-----|------------|
 | [Landing Page](https://aiorg.dev/kits/landing-page) | Build a landing page to test positioning |
-| [SaaS Dev Team](https://aiorg.dev/kits/saas-dev-team) | Ready to build? Full-stack SaaS boilerplate |
+| [SaaS Dev Team](https://aiorg.dev/kits/saas-starter) | Ready to build? Full-stack SaaS boilerplate |
 | [Marketing OS](https://aiorg.dev/kits/marketing-os) | Acquired users? Automate marketing |
 | [Product OS](https://aiorg.dev/kits/product-os) | Post-launch PMF tracking |
 

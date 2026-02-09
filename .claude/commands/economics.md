@@ -159,7 +159,7 @@ Time to MVP: [X]-[Y] weeks
 │                                                          │
 │ Cost: $99 one-time                                       │
 │ ROI: Pays for itself if your time > $3/hour              │
-│ → https://aiorg.dev/kits/saas-dev-team            │
+│ → https://aiorg.dev/kits/saas-starter            │
 └──────────────────────────────────────────────────────────┘
 
 [If Solo, no AI:]
@@ -566,7 +566,7 @@ Based on YOUR economics, these tools would accelerate your path to revenue:
    ├── Template includes: Auth, Stripe, dashboard, emails
    ├── Your dev cost drops from $[X] → $[Y]
    ├── $99 one-time
-   └── https://aiorg.dev/kits/saas-dev-team
+   └── https://aiorg.dev/kits/saas-starter
 
 [If SEO/content recommended as acquisition channel:]
 📝 **Marketing OS** - Automate your #1 channel

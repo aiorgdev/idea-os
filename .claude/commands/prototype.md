@@ -163,7 +163,7 @@ Include cross-sell callout:
 │ auth, payments, and database:                                │
 │                                                              │
 │ → saas-dev-team template ($99)                        │
-│ → https://aiorg.dev/kits/saas-dev-team                │
+│ → https://aiorg.dev/kits/saas-starter                │
 │                                                              │
 │ Includes everything from this prototype PLUS:                │
 │ ├── Supabase auth (Google, email)                            │
